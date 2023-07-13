@@ -1,0 +1,29 @@
+{
+  "name": "syt",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue"      : "^2.1.0",
+    "@types/node": "^20.3.3",
+    "axios": "^1.4.0",
+    "element-plus": "^2.3.7",
+    "nprogress": "^0.2.0",
+    "pinia": "2.0.3",
+    "qrcode": "^1.5.3",
+    "sass": "^1.63.6",
+    "vue": "^3.2.47",
+    "vue-router": "^4.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.4.2"
+  }
+}
